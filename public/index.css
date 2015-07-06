@@ -1,0 +1,78 @@
+*{
+	margin: 0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: "Avenir";
+}
+.tabs{
+	padding: 20px 40px;
+}
+
+.tab-header {
+	position: relative;
+	font-size: 24px;
+	border: 5px solid rgba(102, 102, 115, 1);
+	background-color:rgba(102, 102, 115, 1);
+	border-radius: 5px;
+	padding: 5px 10px;
+	width: 10%;
+	margin-bottom: 1%;
+	text-align: center;
+	color:white;
+}
+
+.tab-content {
+	width: 80%;
+	position: absolute;
+	top: 10%;
+	left: 13%;
+	border: 5px solid rgba(102, 102, 115, 1);
+	border-radius: 5px;
+	padding: 10px 10px;
+	margin-bottom: 5px;
+	display: none;
+}
+
+.tab-content.active{
+	display: block;
+}
+.red.tab-content.active{
+	border: 5px solid rgba(248, 38, 58, 1);
+}
+
+.green.tab-content.active{
+	border: 5px solid rgba(3, 160, 112, 1);
+}
+
+.blue.tab-content.active{
+	border: 5px solid rgba(39, 130, 189, 1);
+}
+
+
+.red.tab-header{
+	background-color: rgba(248, 38, 58, 1);
+	border: 5px solid rgba(248, 38, 58, 1);
+}
+
+.red.tab-header:hover{
+	background-color: white;
+	color: rgba(248, 38, 58, 1);
+}
+
+.green.tab-header{
+	background-color: rgba(3, 160, 112, 1);
+	border: 5px solid rgba(3, 160, 112, 1);
+}
+
+.green.tab-header:hover{
+	background-color: white;
+	color: rgba(3, 160, 112, 1);
+}
+.blue.tab-header{
+	background-color: rgba(39, 130, 189, 1);
+	border: 5px solid rgba(39, 130, 189, 1);
+}
+.blue.tab-header:hover{
+	background-color: white;
+	color:rgba(39, 130, 189, 1);
+}
