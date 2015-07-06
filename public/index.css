@@ -19,6 +19,15 @@ p {
 	margin: 10px 3%;
 	vertical-align: top;
 }
+
+.label {
+	font-family: sans-serif;
+	color: rgb(200,200,200);
+	float: right;
+	font-size: 20px;
+	margin-right: 20px;
+}
+
 .tab-header {
 	border: solid 1px rgb(50,50,50);
 	display: inline-block;
