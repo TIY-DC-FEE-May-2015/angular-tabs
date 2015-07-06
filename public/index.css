@@ -13,6 +13,12 @@ p {
 	line-height: 1.5em;
 }
 
+.tabs {
+	display: inline-block;
+	width: 40%;
+	margin: 10px 3%;
+	vertical-align: top;
+}
 .tab-header {
 	border: solid 1px rgb(50,50,50);
 	display: inline-block;
@@ -41,6 +47,15 @@ p {
 }
 
 .tabs.red .tab-content.red, .tabs.green .tab-content.green, .tabs.blue .tab-content.blue {
+	display: block;
+	font-size: 15px;
+}
+
+.content {
+	display: none;
+}
+
+.content.active {
 	display: block;
 	font-size: 15px;
 }
