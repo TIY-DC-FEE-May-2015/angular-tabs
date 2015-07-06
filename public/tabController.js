@@ -1,8 +1,10 @@
-angular.module("tabController", [])
-.controller("TabController", ["$scope", function($scope){
+var change = angular.module("tabController", [])
+change.controller("TabController", ["$scope", function($scope){
 
 
-  // Your code goes here
+  // Set default view to red
+
+  $scope.viewType = "red";
   
   
 }])
