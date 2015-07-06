@@ -35,3 +35,7 @@ body{
 .tab-container .red.show{
 	display: block;
 }
+p{
+	margin-bottom: 30px;
+	line-height: 20px;
+}
