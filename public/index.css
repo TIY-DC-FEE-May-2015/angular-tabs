@@ -1,0 +1,47 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 0;
+}
+
+p {
+	margin-bottom: 15px;
+	line-height: 1.5em;
+}
+
+.tab-header {
+	border: solid 1px rgb(50,50,50);
+	display: inline-block;
+	padding: 10px;
+	margin: 0px;
+	transition: all .3s;
+	font-size: 15px;
+}
+
+.tab-content {
+	font-size: 15px;
+}
+
+.tab-header:hover {
+	color: white;
+	background-color: rgb(50,50,50);
+
+}
+
+.tab-content.green, .tab-content.blue {
+	display: none;
+}
+
+.tabs.red .tab-content:not(.red), .tabs.green .tab-content:not(.green), .tabs.blue .tab-content:not(.blue) {
+	display: none;
+}
+
+.tabs.red .tab-content.red, .tabs.green .tab-content.green, .tabs.blue .tab-content.blue {
+	display: block;
+	font-size: 15px;
+}
+
