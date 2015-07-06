@@ -1,0 +1,19 @@
+.view-tab .red{
+	display:none;
+}
+.view-tab .blue{
+	display:none;
+}
+.view-tab .green{
+	display:none;
+}
+.view-tab .red.show{
+	display:block;
+}
+
+.view-tab .green.show{
+	display: block
+}
+.view-tab .blue.show{
+	display: block
+}
